@@ -1,7 +1,7 @@
 package logistica;
 
 public class ServicoRemessa {
-	 public static void shipProduct(Produto product){
-		 /*Conecta-se a serviço externo de logística para enviar o produto*/
-	 }
+	public static void shipProduct(Produto product) {
+        System.out.println("Remessa: Enviando " + product.name + " para o cliente.");
+    }
 }

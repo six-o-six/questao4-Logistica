@@ -1,8 +1,8 @@
 package logistica;
 
 public class ServicoPagamento {
-	 public static boolean makePayment(){
-		 /*Conecta-se a um serviço externo para efetuar o pagamento*/
-		 return true;
-	 }
+	public static boolean makePayment() {
+        System.out.println("Pagamento: Transação autorizada.");
+        return true; 
+    }
 }
